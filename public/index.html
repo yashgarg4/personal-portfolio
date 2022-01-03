@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media_query.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Jost:regular,500,800" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <!--
+        - navbar toggle open button
+      -->
+
+      <button class="menu-open-btn">
+        <span>Menu</span>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="nav">
+
+        <button class="menu-close-btn">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <h4 class="nav-heading">Menu</h4>
+
+        <ul>
+
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+
+        </ul>
+
+
+        <div class="nav-footer">
+
+          <ul class="social-link">
+
+            <li>
+              <a href="https://twitter.com/_Yash_Garg_" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/yashgarg04/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/yasshh04/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/yashgarg4" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <p>Developed by <a href="https://github.com/yashgarg4" target="_blank" class="link-underline">YASHGARG</a></p>
+
+        </div>
+
+      </nav>
+
+
+      <!--
+        - header intro
+      -->
+      <section class="intro section-padding">
+
+        <div class="intro-profile">
+
+          <div class="intro-border one"></div>
+          <div class="intro-border two"></div>
+
+          <div class="img-box">
+            <img src="./images/yash garg.jpg" alt="" class="intro-img" width="100%" loading="lazy">
+          </div>
+
+          <p>Hi there! I am</p>
+
+          <div class="profile-name">
+            <span>[</span>
+            <div>Yash Garg</div>
+            <span>]</span>
+          </div>
+        </div>
+
+        <a href="#contact" class="intro-link">
+          <span class="circle"></span>
+          <span class="link-underline">I’m available for a freelance job. Hire me</span>
+        </a>
+
+      </section>
+    </header>
+
+    <main>
+
+      <!--
+        - #HOME
+      -->
+
+      <section class="section-padding" id="home">
+
+        <h3 class="section-subtitle">Introduction</h3>
+
+        <h2 class="section-title">FULL-STACK WEB DEVELOPER</h2>
+
+        <p class="section-desc">I design and develop services for customers of all sizes,
+          specializing in creating stylish, modern websites,
+          web services and online stores.</p>
+
+        <img src="./images/signature.png" width="200px" alt="" loading="lazy">
+
+      </section>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section-padding" id="about">
+
+        <h3 class="section-subtitle">About me</h3>
+
+        <h2 class="section-title">Biography</h2>
+
+        <p class="section-desc">I'm a Freelancer Web Developer with some experience.
+          I'm from India. I code and create web elements for amazing people
+          around the world. I like work with new people. New people are new experiences.</p>
+
+
+        <table class="about-table">
+          <tr>
+            <th>Name</th>
+            <td>Yash Garg</td>
+          </tr>
+          <tr>
+            <th>Birthday</th>
+            <td>4th July 2001</td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td>20 years</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>India</td>
+          </tr>
+          <tr>
+            <th>Phone</th>
+            <td>
+              <a href="tel:+917428846924" class="link-underline">+91 7428846924</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>
+              <a href="mailto:yashgarg04072001@gmail.com" class="link-underline">yashgarg04072001@gmail.com</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Twitter</th>
+            <td>
+              <a href="#" class="link-underline">@_Yash_Garg_</a>
+            </td>
+          </tr>
+        </table>
+
+        <button class="download-cv">
+          <ion-icon name="cloud-download-outline"></ion-icon>
+          <span>Download cv</span>
+        </button>
+
+
+        <div class="about-tab">
+
+          <ul class="tab-nav">
+
+            <li>
+              <button class="one tab-button active">Experience</button>
+            </li>
+            <li>
+              <button class="two tab-button">Education</button>
+            </li>
+            <li>
+              <button class="three tab-button">Skills</button>
+            </li>
+
+          </ul>
+
+          <div class="tab-content-group">
+
+            <div class="one tab-content active">
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>The Sparks foundation</h4>
+                  <p>( Intern )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Front-end deveoloper</h3>
+                  <p>I had worked with the developers team to recreate and enhance the UI/UX of their website.</p>
+                </div>
+
+              </div>
+
+
+              <!-- <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Google llc</h4>
+                  <p>( 2016 — 2018 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Front-end Developer</h3>
+                  <p>Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+              </div>
+ -->
+
+              <!-- <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Twitter llc</h4>
+                  <p>( 2016 — 2011 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Graphic Designer</h3>
+                  <p>Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+              </div> -->
+
+            </div>
+
+
+            <div class="two tab-content">
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Guru Gobind Singh Indraprastha University</h4>
+                  <p>( 2019 — today )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Bachelor Degree</h3>
+                  <p>Persuing my BTECH in Information Technology field. <br> Currently in 3rd year. <br>Current CGPA is 8.87.</p>
+                </div>
+
+              </div>
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Dashmesh Public School</h4>
+                  <p>( 2006 — 2019 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>High School Degree</h3>
+                  <p>Completed my high school with PCM as the major subjects.<br>Passed with 86% in total.<br>I have also done many co-curricular activites their and participated and won many competitions.</p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="three tab-content">
+              
+              <div class="skill-box">
+                <h4 class="skill-name">HTML5 & CSS3</h4>
+                
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%;"></div>
+                  <div class="progress-rate" style="left: 90%;">90%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Bootstrap</h4>
+                
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%;"></div>
+                  <div class="progress-rate" style="left: 90%;">90%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Javascript</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%;"></div>
+                  <div class="progress-rate" style="left: 80%;">80%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Mern Stack</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 75%;"></div>
+                  <div class="progress-rate" style="left: 75%;">75%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">MySql</h4>
+                
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%;"></div>
+                  <div class="progress-rate" style="left: 90%;">90%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">RPA</h4>
+                
+                <div class="progress-bar">
+                  <div class="progress" style="width: 70%;"></div>
+                  <div class="progress-rate" style="left: 70%;">70%</div>
+                </div>
+              </div>
+              
+              <div class="skill-box">
+                <h4 class="skill-name">Adobe Photoshop</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 50%;"></div>
+                  <div class="progress-rate" style="left: 50%;">50%</div>
+                </div>
+              </div>        
+              
+              <p class="skill-text">
+                A freelance creative designer with a love for minimal design,
+                clean typography and well-written code, located in India.
+                Provide high quality and cost effective offshore web and software
+                development services. Wide range of web and software development
+                services across the world.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <section class="section-padding" id="portfolio">
+
+        <h3 class="section-subtitle">Portfolio</h3>
+
+        <div class="wrapper">
+
+          <h2 class="section-title">Featured Projects</h2>
+
+          <div class="btn-group">
+            <button id="portfolio-carousel-prev">
+              <div class="arrow">
+                <div class="arrow-head-left"></div>
+              </div>
+            </button>
+
+            <button id="portfolio-carousel-next">
+              <div class="arrow">
+                <div class="arrow-head-right"></div>
+              </div>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="portfolio-carousel">
+          <div class="portfolio-carousel-inner">
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./images/textutils.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+                <div class="overlay"> 
+                  <div class="project-btn-grp">
+                    <button class="project-btn github"><a href="https://github.com/yashgarg4/TextUtils-React" target="_blank">github repo</a></button>
+                    <button class="project-btn live"><a href="https://yashgarg4.github.io/TextUtils-React/" target="_blank">See Live</a></button>
+                </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <p>TextUtils Web App</p>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./images/newsexpress.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+                <div class="overlay"> 
+                  <div class="project-btn-grp">
+                    <button class="project-btn github"><a href="#" target="_blank">github repo</a></button>
+                    <button class="project-btn live"><a href="#" target="_blank">See Live</a></button>
+                </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <p>News Express</p>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./images/businesscard.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+                <div class="overlay"> 
+                  <div class="project-btn-grp">
+                    <button class="project-btn github"><a href="https://github.com/yashgarg4/business-card" target="_blank">github repo</a></button>
+                    <button class="project-btn live"><a href="https://yashgarg4.github.io/business-card/" target="_blank">See Live</a></button>
+                </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <p>BusinessCard Designer</p>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./images/musicplayer.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+                <div class="overlay"> 
+                  <div class="project-btn-grp">
+                    <button class="project-btn github"><a href="https://github.com/yashgarg4/Music-Player" target="_blank">github repo</a></button>
+                    <button class="project-btn live"><a href="https://yashgarg4.github.io/Music-Player/" target="_blank">See Live</a></button>
+                </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <p>Music Player</p>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./images/notes.png" alt="" class="slider-img" width="100%" loading="lazy">
+                <div class="overlay"> 
+                  <div class="project-btn-grp">
+                    <button class="project-btn github"><a href="#" target="_blank">github repo</a></button>
+                    <button class="project-btn live"><a href="#" target="_blank">See Live</a></button>
+                </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <p>iNoteBook</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!--
+        - #SERVICES
+      -->
+
+      <section class="section-padding" id="services">
+
+        <h3 class="section-subtitle">Services</h3>
+
+        <h2 class="section-title">What I Do</h2>
+
+        <p class="section-desc">I help ambitious businesses to generate more profits by building awareness,
+          driving web traffic, connecting with customers and growing overall sales.</p>
+
+
+        <div class="service-cards-group">
+
+          <div class="service-card">
+
+            <div class="card-body">
+              <h3>Web Developer</h3>
+              <p>I build awesome websites for brands through cultural insights & strategic vision. These Websites helps their brands to grow worldwide.</p>
+            </div>
+
+            <!-- <div class="card-footer">
+              <span>Start from</span>
+              <div>$599</div>
+            </div> -->
+
+          </div>
+
+
+
+          <div class="service-card">
+
+            <div class="card-body">
+              <h3>UI/UX Solutions</h3>
+              <p>Design direction for business. Get your business on the next level. We help to
+                create great experiences.</p>
+            </div>
+
+            <!-- <div class="card-footer">
+              <span>Start from</span>
+              <div>$499</div>
+            </div> -->
+
+          </div>
+
+        </div>
+
+      </section>
+
+ 
+      <!--
+        - #CONTACT
+      -->
+
+      <section class="section-padding" id="contact">
+
+        <h3 class="section-subtitle">Contact</h3>
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p class="section-desc">If you have any suggestion, project or even you want to say “hello”, please
+          fill out the form below and I will reply you shortly.</p>
+
+
+        <form action="#" class="contact-form">
+
+          <div class="wrapper">
+
+            <div>
+              <label for="name">Name *</label>
+              <input type="text" class="name" name="name" id="name" required>
+            </div>
+
+            <div>
+              <label for="email">Email *</label>
+              <input type="email" class="email" name="email" id="email" required>
+            </div>
+
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" class="phone" name="phone" id="phone">
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" class="message" id="message" rows="8"></textarea>
+          </div>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+
+        </form>
+
+        <div class="address">
+          <h4>Address</h4>
+          <address>New Delhi , India</address>
+        </div>
+
+        <div class="phone">
+          <h4>Phone</h4>
+          <a href="tel:+917428846924">(+91) 7428846924</a>
+        </div>
+
+        <div class="email">
+          <a href="mailto:yashgarg04072001@gmail.com" class="link-underline">yashgarg04072001gmail.com</a>
+        </div>
+
+      </section>
+
+      <!--
+        - #FOOTER
+      -->
+
+      <div class="footer">
+
+        <a href="#home" class="go-top">
+          <div class="arrow">
+            <div class="arrow-head"></div>
+          </div>
+        </a>
+
+        <p class="copyright">
+          Copyright © 2021. All rights reserved.
+          <br>
+          Developed by <a href="#" class="link-underline">Yash Garg</a>
+        </p>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="./js/script.js"></script>
+
+ <!-- ICONS LINKS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

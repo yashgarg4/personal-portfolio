@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
+const port = process.env.PORT || 3000;
 
 dotenv.config();
 let initialPath = path.join(__dirname, "public");
@@ -42,8 +43,8 @@ app.post('/mail', (req, res) => {
     })
 })
 
-app.listen('3000', () => {
-    console.log('listening.....');
+app.listen(port, () => {
+    console.log(`listening at ${port}`);
 })
 
 
